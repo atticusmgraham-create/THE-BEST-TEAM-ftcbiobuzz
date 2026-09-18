@@ -1,3 +1,5 @@
+//add high pass filter to wheels
+//find dampening frequency t=1/((1+2pi)*fc*deltaT)
 package org.firstinspires.ftc.teamcode;
 import com.qualcomm.robotcore.util.ElapsedTime;
 import org.firstinspires.ftc.robotcore.external.navigation.YawPitchRollAngles;
