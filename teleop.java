@@ -45,6 +45,14 @@ import org.firstinspires.ftc.vision.apriltag.AprilTagProcessor;
 @TeleOp (name = "shakyhands_teleop (Blocks to Java)")
 public class shakyhands_teleop extends LinearOpMode {
   double fixedtheta=65;//find this
+  public double radwheelBig=48; //mm wheel radius
+  public double radwheelSmall=24; //mm wheel radius 
+  public double radwheelGecko=36; //mm wheel radius
+  public double BIGgear=100;
+  public double beltteeth=46;
+  public double toothsprocket=10;
+  public double smallgear=20;
+  public double midgear=30;
   double alpha=0.2;//tune
   double rotater=0;
   double rotaterA=0;
