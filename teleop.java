@@ -54,6 +54,9 @@ public class shakyhands_teleop extends LinearOpMode {
   public double smallgear=20;
   public double midgear=30;
   double alpha=0.2;//tune
+  public double Bigratio=50.9:
+  public double Midratio=19.2:
+  public double smallratio=1/10;
   double rotater=0;
   double rotaterA=0;
   double motifs=0;
